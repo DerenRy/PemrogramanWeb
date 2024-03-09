@@ -1,0 +1,98 @@
+body {
+  font-family: poppins;
+
+}
+
+.form {
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+h1 {
+  text-align: center;
+}
+ 
+label {
+  font-weight: 400;
+}
+
+input{
+  font-family: poppins;
+}
+select {
+  font-family: poppins;
+  width: 500px;
+}
+textarea {
+  font-family: poppins;
+  max-width: 500px;
+  max-height: 200px;
+}
+#NPM {
+  width: 500px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 300;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.425)  ;
+}
+
+#NAMA {
+  width: 500px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 300;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.425)  ;
+}
+
+#ALAMAT {
+  font-size: 14px;
+  font-weight: 300;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.425)  ;
+}
+
+#PS {
+  width: 500px;
+  font-size: 14px;
+  font-weight: 300;
+  background-color: white;
+  border-radius: 2px;
+}
+
+div {
+  margin-top: 10px;
+}
+button {
+  background-color: rgb(36, 100, 236);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.table {
+  
+}
+table,th,td {
+  border-collapse: collapse;
+}
+
+td {
+  text-align: center;
+  padding: 2px;
+}
+th{
+  padding: 10px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.galeri {
+  text-align: center;
+}
+

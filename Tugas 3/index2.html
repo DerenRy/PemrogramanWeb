@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+        div {
+
+        }
+        input {
+            padding: 8px;
+            margin-right: 10px;
+        }
+        button {
+            padding: 8px 16px;
+            cursor: pointer;
+        }
+        #output {
+            margin-top: 20px;
+        }
+    </style>
+    <script src="kalku.js"></script>
+</head>
+<body>
+  <div>
+    <h2>Kalkulator</h2>
+    <label for="operand1">Digit 1 :</label>
+    <input type="number" id="operand1">
+    <br>
+    <label for="operator">Operator  :</label>
+    <select id="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+        <option value="%">%</option>
+    </select>
+    <br>
+    <label for="operand2">Digit 2:</label>
+    <input type="number" id="operand2">
+    <br>
+
+    <button onclick="calculate()">Hitung</button>
+
+    <div id="output"></div>
+  </div>
+
+</body>
+</html>
